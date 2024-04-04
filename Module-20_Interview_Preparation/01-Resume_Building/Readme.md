@@ -83,35 +83,25 @@ _Passionate and experienced_ _DevOps engineer_ with over _eight years_ of experi
 
 ### Sample-01
 
-```
 An experienced Devops Engineer with over 5 years of experience in designing and implementing infrastructure-as-code solutions for large-scale distributed systems using AWS and Kubernetes. Skilled in configuration management with Ansible and Puppet, and expertise in CI/CD pipelines using Jenkins.
-```
 
 ### Sample-02
 
-```
 A motivated self-starter with a proven track record of collaborating with cross-functional teams to deliver high-quality software products while ensuring compliance with security best practices and regulatory requirements. Specializes in implementing monitoring solutions and optimizing system performance.
-```
 
 ### Sample-03
 
-```
 A result-oriented Devops Engineer with a can-do attitude. Possess a strong foundation in networking fundamentals and extensive experience in designing and managing scalable systems with Docker and Kubernetes. Proficient in scripting languages such as Python and Bash, and a proponent of the infrastructure-as-code approach.
-```
 
 ### Sample-04
 
-```
 A creative problem-solver with excellent communication and interpersonal skills. Has experience in providing technical leadership and guidance to other team members, and working in a 24/7 on-call rotation. Expertise in disaster recovery planning and implementation, and driving continuous improvement in system resilience and availability.
-```
 
 ### Sample-05
 
-```
 A passionate Devops Engineer with a demonstrated history of developing and maintaining technical documentation and diagrams. Specializes in automating and optimizing build and release processes with Jenkins, and infrastructure-as-code solutions with Terraform and CloudFormation. A team-player with a service-oriented attitude towards customers.
-```
 
-## `EXPERT's TIP`
+## :ninja: `EXPERT's TIP`
 
 - Curate your resume or CV summary to the job description and company culture to stand out from other applicants.
 - Few imp tips how to make your Devops Engineer CV stand out:

@@ -67,7 +67,7 @@ mv /usr/local/bin/docker-compose /usr/bin/docker-compose
 chmod +x /usr/bin/docker-compose
 
 # Check the docker compose version
-docker-version --version
+docker-compose --version
 ```
 
 :warning: **Note** that Compose standalone uses the **-compose** syntax instead of the current standard syntax **compose**.

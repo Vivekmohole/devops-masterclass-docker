@@ -175,3 +175,7 @@ docker-compose down
 # Scale our web service to three instances
 docker-compose up --scale web=3
 ```
+
+## View example Projects that use Docker
+
+- https://github.com/docker/awesome-compose 

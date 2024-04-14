@@ -2,16 +2,16 @@
 
 - In this module, we will setup a kubernetes cluster.
 - There are various kubernetes distributions available out of which here we'll setup below two distros:
-  - **minikube** - single node k8s
+  - **minikube** - single node k8s (for learning)
   - **kubeadm** - multi-node k8s (prod grade)
-  - **Amazon ECS** - multi-node k8s (prod grade)
+  - **Amazon EKS** - multi-node k8s (prod grade)
   - Microsoft AKS - multi-node k8s (prod grade)
   - GKE - multi-node k8s (prod grade)
   - Rancher K8s
   - K3s
   - MicroK8s
 
-## 01 - Install and Configure `minikube` kubernetes
+## 1. Install and Configure `minikube` kubernetes
 
 - _minikube_ is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.
 
@@ -103,6 +103,10 @@ sudo mv kubectl /usr/local/bin
 minikube status
 
 ```
+
+## 2. Install and Configure `kubeadmin` k8s cluster
+
+## 3. Install and Configure `Amazon EKS` cluster
 
 ## References
 

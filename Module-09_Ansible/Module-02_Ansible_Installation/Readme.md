@@ -1,4 +1,7 @@
-# Setting up the environment for Ansible Playbooks execution (CentOS)
+# Setting up the environment for Ansible
+
+
+## 01. On CentOS
 
 There will be two machines in this setup:
 
@@ -17,4 +20,15 @@ $ sudo yum install -y ansible
 
 # Check ansible version
 $ ansible --version
+```
+
+## 02. On Amazon Linux 2 AMI 
+
+```
+sudo amazon-linux-extras install epel
+
+# Install Ansible
+sudo yum install -y ansible
+
+# ansible --version
 ```

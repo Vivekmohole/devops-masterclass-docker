@@ -8,9 +8,25 @@ There will be two machines in this setup:
 
 <img src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/89409280-97b1-4c22-b2da-e6fe43c52417" data-canonical-src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/89409280-97b1-4c22-b2da-e6fe43c52417" width="600" height="180" />
 
+## Setup Ansible Server on EC2 Instance (Amazon Linux 2)
+
+### Step-01: Provision an EC2 instance with below specifications:
+
+- AMI: Amazon Linux 2 (5.10 Kernel)
+- Instance Type: t2.micro
+- Key Pair: Create a new key pair
+- VPC & Subnet: Default
+- Security group: Allow SSH(22) ingress | Outbound allow all
+- Storage: 10 GB (root volume)
+
+### Step-02: Install and configure Ansible
+
+- Connect to the EC2 instance that you created in Step#1.
+- Now, execute following commands:
+
 ```
 # Install epel-release packages in AnsibleServer
-$ sudo yum install epel-release
+$ sudo amazon-linux-extras install -y epel
 
 # Install Ansible on CentOS
 $ sudo yum install -y ansible

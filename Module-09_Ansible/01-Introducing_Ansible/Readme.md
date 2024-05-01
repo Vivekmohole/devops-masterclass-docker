@@ -2,10 +2,11 @@
 
 - Ansible is an open source community project sponsored by Red Hat | Developed by <b>Michael DeHaan</b>
 - Ansible is a powerful tool which can be used for automating IT tasks (e.g. software installation, configuring servers, deploying apps etc)
-- Ansible is agentless, relying on temporary remote connections via SSH/WinRM
+- Ansible is _agentless_, relying on temporary remote connections via SSH/WinRM
 - Red Hat acquired Ansible in October 2015
 - [Ansible GitHub repository](github.com/ansible/ansible.git)
 - [Ansible Official Website](www.ansible.com)
+- Code for Ansible is written in YAML (http://yaml.org/), which stands for _YAML Ain't Markup Language_.
 
 ## What can you automate with Ansible ?
 
@@ -15,10 +16,6 @@
 - Configuration Management
 - Security Automation
 - Edge Automation
-
-## Ansible Architecture
-
-![image](https://github.com/novatecstack/ansible-masterclass/assets/121426292/50e7abaf-24da-4902-8eb9-faa6b453805b)
 
 ## Performing IT management With and Without Ansible
 
@@ -46,3 +43,23 @@ The Ansible is agentless; in order to perform certain tasks on Servers (physical
 - Start and stop services
 - Set environment variables
 - Write scripts (any language)
+
+## [Ansible: Releases and maintenance](https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html)
+
+Ansible's community packages are distributed in two ways:
+
+- **ansible-core**: a minimalist language and runtime package containing a set of _Ansible.Builtin_.
+- **ansible**: a much larger batteries included package, which adds a community-curated selection of Ansible collections for automating a wide variety of devices.
+
+## Ansible CLI Tools
+
+- ansible-playbook
+
+- ansible-inventory
+
+- ansible-galaxy
+- ansible-console
+- ansible-test
+- ansible-connection
+- ansible-pull
+- ansible-vault

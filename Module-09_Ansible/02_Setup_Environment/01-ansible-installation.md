@@ -10,7 +10,7 @@ There will be two machines in this setup:
 
 <img src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/89409280-97b1-4c22-b2da-e6fe43c52417" data-canonical-src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/89409280-97b1-4c22-b2da-e6fe43c52417" width="600" height="180" />
 
-## Setup Ansible Server on `Amazon Linux 2 (EC2 Instance)`
+## 01. Setup Ansible Server on `Amazon Linux 2 (EC2 Instance)`
 
 ### Step-01: Provision an EC2 instance with below specifications:
 
@@ -43,7 +43,7 @@ $ sudo yum --enablerepo epel install -y ansible
 $ ansible --version
 ```
 
-## Setup Ansible on `RHEL 8`
+## 02. Setup Ansible on `RHEL 8`
 
 - There are multiple ways by which you can install **ansible**:
 
@@ -84,7 +84,7 @@ subscription-manager repos --enable ansible-2.9-for-rhel-8-x86_64-rpms
 dnf -y install ansible
 ```
 
-## Setup Ansible on `CentOS 8`
+## 03. Setup Ansible on `CentOS 8`
 
 ### Step-01: Install epel repository
 

@@ -14,7 +14,6 @@ In this section, we will explore ansible architecture and learn below concepts:
 ## Ansible Architecture
 
 ![ansiblearchitecture](images/ansiblearchitecture.png)
-![alt text](image.png)
 
 ### 01. Control Nodes
 
@@ -39,10 +38,16 @@ In this section, we will explore ansible architecture and learn below concepts:
 - Inventory can specify information like IP address, Username & Password/keypair to be used to connect to client nodes.
 - An inventory also provides you with a way of organizing client nodes, by creating and nesting groups for easier scaling.
 
-### 04. Playbook
+### 04. Playbook and Play
 
-### 05. Play
+- **Playbooks** are ordered lists of _plays_.
+- A play is a collection of _Tasks_
+- _Task_ is an action to be performed on client nodes (e.g install a package, start a service etc.)
+- Playbooks are written in YAML and are easy to read, write, share and understand.
 
 ### 06. Tasks
+
+- Tasks are the basic unit of action in Ansible.
+- For more details, refer documentation.
 
 ### 07. Modules

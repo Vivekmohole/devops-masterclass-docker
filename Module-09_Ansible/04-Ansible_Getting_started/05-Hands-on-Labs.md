@@ -11,3 +11,11 @@
 ## 05. Demonstrate the use of Ansible Variables
 
 ## 06. Create a playbook to create a user account on a remote linux machine
+
+## 07: Create a playbook to configure a webserver (remote) with below specs:
+
+- Install httpd
+- Start the httpd service
+- Enable the httpd service
+- Copy the index.html from ansible controller to remote machine (/var/www/html/index.html)
+- Restart the httpd service

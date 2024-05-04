@@ -9,7 +9,7 @@
 - Each play executes part of the overall goal of the playbook, running one or more tasks.
 - Each task calls an Ansible module.
 
-<img src="images/playbooksyntax.png" width="500" height="450">
+<img src="https://github.com/kbindesh/devops-masterclass/blob/main/Module-09_Ansible/07_Ansible_Playbooks/images/playbooksyntax.png" width="500" height="450">
 
 - Your playbook can include more than just a hosts line and tasks.
 - You can add other [Playbook Keywords](https://docs.ansible.com/ansible/latest/reference_appendices/playbooks_keywords.html#playbook-keywords) at the playbook, play, or task level to influence how Ansible behaves.
